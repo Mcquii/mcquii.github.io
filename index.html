@@ -1,6 +1,24 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <style>
+        .sec {
+          margin: 0;
+          padding: 5px;
+          background-color: lightgray;
+        }
+        .sec > h1, .block {
+          margin: 10px;
+          padding: 5px;
+        }
+        .block {
+          background: white;
+        }
+        .block > h2, p {
+          margin: 4px;
+          font-size: 90%;
+        }
+        </style>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -11,9 +29,22 @@
     <h1>Hello World</h1>
     <p>I'm hosted with GitHub Pages.</p>
     <img src="assets/images/Rachel_Saltlick_portrait.jpg" alt="it me">
-    <h1> About Me </h1>
-    <p>This is a paragraph.</p>
-    <h1> Contact </h1>
-    <p>This is a paragraph.</p>
+
+    
+    <article class="sec">
+        <h1> Personal Information </h1>
+        <article class = "block">
+            <h1> About Me </h1>
+            <p>I am a Data Analyst with a background in sales and customer success. I have experience
+                delivering presentations on data insights, building reporting infrastructure and creating dashboards for
+                team leadership to track key performance indicators.
+                </p>
+        </article>
+        <article class = "block">
+            <h1> Contact </h1>
+            <p>Email: mcquillen.ian@gmail</p>
+        </article>
+     </article>
+
 </body>
 </html>
